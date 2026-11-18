@@ -1,6 +1,6 @@
 
 #FROM node:lts-buster
-FROM node:lts-bullseye
+FROM node:lts-bookworm
 
 RUN apt-get update && \
   apt-get install -y \
