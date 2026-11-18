@@ -1,5 +1,6 @@
 
-FROM node:lts-buster
+//FROM node:lts-buster
+FROM node:lts-bullseye
 
 RUN apt-get update && \
   apt-get install -y \
