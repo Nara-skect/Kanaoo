@@ -3,7 +3,7 @@
 //Instagram: examsolutionteam 
 //Telegram: t.me/examsolutionteam 
 //GitHub: @paskito002
-//WhatsApp: +2349037524605
+//WhatsApp: +6281916679123
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@esteams
 
 require('./settings')
@@ -31,7 +31,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "2349155298855"
+let phoneNumber = "6281916679123"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
